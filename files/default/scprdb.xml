@@ -1,0 +1,8 @@
+<project>
+    <node name="scprdb1" tags="" username="mysql_rundeck">
+        <hostname>10.100.0.38</hostname>
+    </node>
+    <node name="scprdb2" tags="" username="mysql_rundeck">
+        <hostname>10.100.0.40</hostname>
+    </node>
+</project>

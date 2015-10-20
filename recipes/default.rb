@@ -18,6 +18,15 @@ include_recipe "rundeck"
     action  :create
   end
 end
+
+# write scprdb node resources
+cookbook_file "/etc/rundeck/scprdb.xml" do
+  owner   'rundeck'
+  group   'rundeck'
+  mode    0644
+  action  :create
+end
+
 # -- Install Rundeck Plugins -- #
 
 rundeck_plugin "rundeck-slack-incoming-webhook-plugin-0.3.jar" do

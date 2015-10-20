@@ -1,8 +1,9 @@
+source "http://ops-minimart.i.scprdev.org"
 source "https://supermarket.getchef.com"
 
-cookbook "rundeck", github:"priestjim/chef-rundeck"
+cookbook "rundeck"
 
-cookbook "consul", github:"johnbellone/consul-cookbook"
-cookbook "scpr-consul", path:"../scpr-consul"
+cookbook "consul"
+cookbook "scpr-consul"
 
 metadata
